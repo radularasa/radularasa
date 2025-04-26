@@ -5,8 +5,6 @@ body {
     background-color: #333;
     color: #eee;
     line-height: 1.6;
-
-    display: flex;
 }
 header {
     background-color: #333;
