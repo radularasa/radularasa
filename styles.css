@@ -45,7 +45,7 @@ header {
     padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 = 0.5625) */
     height: 0;
     overflow: hidden;
-    max-width: 100%; /* Ensure it doesn't exceed its container's width */
+    max-width: 50%; /* Ensure it doesn't exceed its container's width */
     margin-bottom: 20px; /* Optional: add space below the video */
 }
 .video-container iframe {
