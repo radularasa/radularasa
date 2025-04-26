@@ -12,13 +12,6 @@ header {
     padding: 1em 0;
     text-align: center;
 }
-.container {
-    max-width: 960px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 .hero-image {
     max-width: 100%;
     height: auto;
