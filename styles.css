@@ -42,18 +42,19 @@ header {
 }
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 = 0.5625) */
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio (adjust for other ratios) */
     height: 0;
     overflow: hidden;
-    max-width: 50%; /* Ensure it doesn't exceed its container's width */
-    margin-bottom: 20px; /* Optional: add space below the video */
+    /* Use max-width to control the largest size the video will be */
+    max-width: 800px; /* <-- Change this value to your desired maximum width */
+    margin: 20px auto; /* Optional: Center the container and add space above/below */
 }
 .video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%; /* iframe takes 100% of the container's width */
+    height: 100%; /* iframe takes 100% of the container's height */
 }
 footer {
     background-color: #333;
