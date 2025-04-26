@@ -23,6 +23,23 @@ header {
     display: block;
     margin: 20px auto;
 }
+.title-with-image {
+    /* Optional: Style for the entire title */
+    font-size: 2em; /* Make the text size larger */
+    text-align: center; /* Center the entire title block if needed */
+    /* Add other text styles like font-family, color, etc. */
+}
+.title-with-image img {
+    /* Key styles for the image */
+    display: inline-block; /* Treats the image as a block that flows with text */
+    vertical-align: middle; /* Aligns the middle of the image with the middle of the text */
+    height: 1em; /* Optional: Set the image height relative to the text size (1em equals the current font-size) */
+    /* Or use a fixed pixel height: height: 24px; */
+    margin: 0 8px; /* Add horizontal space between the words and the image */
+
+    /* Optional: If the image background is interfering, you might need this */
+    /* background-color: transparent; */
+}
 footer {
     background-color: #333;
     color: white;
