@@ -33,7 +33,7 @@ header {
     /* Key styles for the image */
     display: inline-block; /* Treats the image as a block that flows with text */
     vertical-align: middle; /* Aligns the middle of the image with the middle of the text */
-    height: 1em; /* Optional: Set the image height relative to the text size (1em equals the current font-size) */
+    height: 2em; /* Optional: Set the image height relative to the text size (1em equals the current font-size) */
     /* Or use a fixed pixel height: height: 24px; */
     margin: 0 8px; /* Add horizontal space between the words and the image */
 
