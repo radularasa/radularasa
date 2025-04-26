@@ -1,11 +1,10 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #333;
     color: #eee;
     line-height: 1.6;
-    font-family: 'Roboto Mono', sans-serif;
 }
 header {
     background-color: #333;
