@@ -18,7 +18,7 @@ header {
     padding: 20px;
 }
 .hero-image {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     display: block;
     margin: 20px auto;
